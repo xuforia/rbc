@@ -11,7 +11,7 @@ npm install
 
 gulp
 
-3. The project is then built and read inside the 'static/' folder. 
+3. The project is then built inside the 'static/' folder. 
 
 
 
