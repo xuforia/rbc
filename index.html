@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<title>Rathbone Boxing Club</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.png" type="image/png" />
+
+	<!-- ////////// Grid Framework ////////// -->
+	<link rel="stylesheet" href="static/css/foundation.css">    	
+
+	<!-- ////////// Font Icon tToolkit ////////// -->
+	<link rel="stylesheet" type="text/css" href="http://use.fontawesome.com/releases/v5.1.0/css/all.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="http://use.fontawesome.com/releases/v5.1.0/css/v4-shims.css" media="screen" />
+
+	<!-- ////////// Main Stylesheet ////////// -->
+	<link rel="stylesheet" type="text/css" href="static/css/styles.css" />
+	
+	
+</head>
+<body>
+
+	<div class="body-wrap">
+		<div class="body-content">
+
+			<header class="site-header">
+				<div class="grid-container">
+					<div class="grid-x">
+						<div class="cell">
+							<h1 class="logo">
+								<img src="static/images/logo.png" alt="Rathbone Boxing Club" />
+							</h1>
+							<img class="bg1" src="static/images/bg1.jpg" alt=""/>
+						</div>
+					</div>
+				</div>
+			</header><!-- site-header -->
+
+			<div class="title-area">
+				<div class="grid-container">
+					<div class="grid-x">
+						<div class="cell">
+							<h2>
+								<img src="static/images/fight_together.png" alt="Fight Together" />
+							</h2>
+						</div><!-- cell -->
+					</div><!-- grid-x -->
+				</div><!-- grid-container -->
+			</div><!-- title-area -->
+
+			<div class="intro-copy">
+				<div class="grid-container">
+					<div class="grid-x align-center">
+						<div class="cell large-6 medium-8">
+							<p>
+								This is about much more than just exercise. More than just staying in shape or losing weight.  This is about developing new skills, learning new disciplines and falling in love with the sport of boxing. Progressing together as people. Building confidence one punch at a time. Getting knocked down and getting back up again. This is about empowerment and getting stronger, inside and out. This is about making new friends. Welcome.
+							</p>
+						</div>
+					</div>
+					<img class="bg2" src="static/images/bg2.jpg" alt=""/>
+				</div>
+			</div><!-- intro-copy -->
+
+			<div class="newsletter">
+				<div class="grid-container">
+					<div class="grid-x align-center">
+						<div class="cell large-6 medium-8">
+							<div class="grid-container">
+								<form action="https://myshopify.us20.list-manage.com/subscribe/post?u=747a542a95ad67f5c4e26eb17&amp;id=94654a9830" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+									<div class="grid-x  medium-margin-collapse">
+										<div class="cell medium-9">
+											<input type="email"  name="EMAIL" placeholder="Be the first to find out more" class="email" id="mce-EMAIL" required/>
+										</div>
+										<div class="cell medium-3">
+											<input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" />
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="grid-container">
+								<div class="cell input-error-message">&nbsp;</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- newsletter -->
+
+			<div class="clear"></div>
+
+			<div class="social">
+				<div class="grid-container">
+					<div class="grid-x">
+						<div class="cell">
+							<a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+							<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+						</div><!-- cell -->
+					</div><!-- grid-x -->
+				</div><!-- grid-container -->
+			</div><!-- social -->
+
+
+		</div><!-- body-content -->
+	</div><!-- body-wrap -->
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="static/js/ajaxchimp.js"></script>
+	<script src="static/js/main.js"></script>
+
+	<script>
+
+	  $('#mc-embedded-subscribe-form').ajaxChimp({
+	    url: 'https://myshopify.us20.list-manage.com/subscribe/post?u=747a542a95ad67f5c4e26eb17&amp;id=94654a9830',
+	    callback: function(response, msg) {
+	      if(response.result == 'error') {
+	        $('.newsletter .input-error-message').removeClass('success').show().html(msg);
+	      } else {
+	        $('.newsletter .input-error-message').addClass('success').show().html(msg);
+	        setTimeout(function(){
+	          $('.newsletter .email').val('');
+	        }, 2500);
+	      }
+	    }
+	  });
+
+	</script>
+</body>
+</html>
