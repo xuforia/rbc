@@ -121,7 +121,7 @@ p a {
     justify-content: center;
     -webkit-align-items: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
   }
 }
