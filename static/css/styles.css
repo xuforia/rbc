@@ -2,6 +2,10 @@
 /* *************** COLOR VARIABLES *********** */
 /*  FONTS  */
 @font-face {
+  font-family: 'inegral-cf-regular';
+  src: url('../webfonts/IntegralCF-Regular.woff2') format('woff2'), url('../webfonts/IntegralCF-Regular.woff') format('woff');
+}
+@font-face {
   font-family: 'inegral-cf-heavy';
   src: url('../webfonts/IntegralCF-Heavy.woff2') format('woff2'), url('../webfonts/IntegralCF-Heavy.woff') format('woff');
 }
@@ -10,6 +14,13 @@
   src: url('../webfonts/larish_neue_semibold.woff2') format('woff2'), url('../webfonts/larish_neue_semibold.woff') format('woff');
 }
 .ff-icf {
+  font-family: 'inegral-cf-regular';
+  font-weight: normal;
+  font-style: normal;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+.ff-icf-h {
   font-family: 'inegral-cf-heavy';
   font-weight: normal;
   font-style: normal;
@@ -121,7 +132,7 @@ p a {
     justify-content: center;
     -webkit-align-items: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
   }
 }
@@ -209,7 +220,7 @@ p a {
   padding: 0 0.46875rem;
 }
 .newsletter input {
-  font-family: 'inegral-cf-heavy';
+  font-family: 'inegral-cf-regular';
   font-weight: normal;
   font-style: normal;
   -moz-osx-font-smoothing: grayscale;
@@ -250,7 +261,7 @@ p a {
 }
 @media only screen and (min-width: 40em) {
   .newsletter input {
-    font-family: 'inegral-cf-heavy';
+    font-family: 'inegral-cf-regular';
     font-weight: normal;
     font-style: normal;
     -moz-osx-font-smoothing: grayscale;
